@@ -18,8 +18,11 @@ body {
   font-style: normal;
 }
 
-.maintext{
+#animation{
   display: none;
+}
+
+.maintext{
   align-items: center;
   text-align: center;
   font-size: 6em;
@@ -34,9 +37,11 @@ body {
   color: red;
 }
 
+.faforward{
+  content: content:"\f04e";
+}
 
-
-.aboutbody {  
+.aboutbody{  
   background: url("../Images/vancouver.jpeg") no-repeat center center; 
   webkit-background-size:cover;
   moz-background-size: cover;
@@ -77,7 +82,7 @@ h1{
   display: inline-block;
 }
 
-nav {
+nav{
   margin-top: 40px;
   padding: 24px;
   text-align: center;
@@ -85,7 +90,16 @@ nav {
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
-.link-1 {
+.horizontal{
+  display: inline;
+}
+
+ul{
+  display: inline;
+  list-style-type: none;
+}
+
+.link-1{
   transition: 0.3s ease;
   background: #666666;
   color: #ffffff;
@@ -97,7 +111,7 @@ nav {
   margin: 0 20px;
 }
 
-.link-1:hover {
+.link-1:hover{
   border-top: 4px solid #ffffff;
   border-bottom: 4px solid #ffffff;
   padding: 6px 0; 
@@ -162,7 +176,7 @@ h4{
   background-color: rgba(255,255,255,1);
 }
 
-#programheader{
+.programheader{
   color: rgba(125,125,125, 0.6);
 }
 

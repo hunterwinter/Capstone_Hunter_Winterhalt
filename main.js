@@ -1,17 +1,10 @@
 $(document).ready(function() { 
 
-$('.maintext').show(2000);
+$('#animation').show(2000);
 
-var $input = $('.forminfo');
-var $errorBox = $('.errorBox')
+$('.infosubmit').on('click', function() {
+	alert("Congratulations! you just took the first step in changing your life")
 
-$('.form').on('submit', function(event) {
-    event.preventDefault();
-    var submitVal = $input.val(); 
-
-    if ($submitVal === '') return $errorBox.text('Please complete all fields!');
-
-    if ($errorBox.text() !== '') $errorBox.text('');
   });
 });
 
