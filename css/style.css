@@ -37,10 +37,6 @@ body {
   color: red;
 }
 
-.faforward{
-  content: content:"\f04e";
-}
-
 .aboutbody{  
   background: url("../Images/vancouver.jpeg") no-repeat center center; 
   webkit-background-size:cover;
